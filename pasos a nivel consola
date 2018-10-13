@@ -1,0 +1,9 @@
+//las instrucciones se daran atraves de lineas de comando 
+//Para	la	instalación	del	servicio	LTSP	debe	
+//ejecutarse	la	siguiente	línea	de	comando:
+         apt-get	install	LTSP-server	standalone
+//Se	deberá	de	instalar	en	el	servidor,	el	sistema	operativo	que	se	cargara	
+//en	la	terminal	tonta	lo	cual	se	ejecuta	con	la	siguiente línea	de	comando:
+          LTSP-build-client-arch	i368
+//Se	agregan	usuarios	
+          Service	isc-dhcp-server	status
